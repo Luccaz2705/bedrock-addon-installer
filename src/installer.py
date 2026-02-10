@@ -28,3 +28,11 @@ def atualizar_world_json(arquivo, uuid, version):
 
 def copiar_pasta(origem, destino):
     shutil.copytree(origem, destino, dirs_exist_ok=True)
+
+def main():
+    print("Instalador de Addons Bedrock iniciado...")
+    # depois entraremos com a lógica completa aqui
+
+if __name__ == "__main__":
+    main()
+
